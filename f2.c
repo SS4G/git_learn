@@ -1,3 +1,4 @@
+//add this line in dev0
 int shsort(int s[], int n)    /* 自定义函数 shsort()*/
 {
         for(i=d+1;i<=n;i++)    /*数组下标从d+1开始进行直接插入排序*/
