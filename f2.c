@@ -1,10 +1,6 @@
 #include <stdio.h>
 int shsort(int s[], int n)    /* 自定义函数 shsort()*/
 {
-    int i,j,d;
-    d=n/2;    /*确定固定增虽值*/
-    while(d>=1)
-    {
         for(i=d+1;i<=n;i++)    /*数组下标从d+1开始进行直接插入排序*/
         {
             s[0]=s[i];    /*设置监视哨*/
